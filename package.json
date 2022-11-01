@@ -1,0 +1,22 @@
+{
+  "name": "uuid-cli",
+  "version": "0.0.1",
+  "description": "Generating and validating uuids.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "uuid": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "minimist": "^1.2.7",
+    "uuid": "^9.0.0"
+  }
+}
